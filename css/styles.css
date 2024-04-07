@@ -148,6 +148,15 @@ img {
 .section-about {
   padding: 188px 0px;
   background-color: var(--navy-blue);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url('../images/office.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
 }
 
 .section-about-header {
