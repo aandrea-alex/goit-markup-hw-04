@@ -148,10 +148,7 @@ img {
 .section-about {
   padding: 188px 0px;
   background-color: var(--navy-blue);
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
+  background-image: linear-gradient(var(--grey), var(--grey)),
     url('../images/office.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -208,6 +205,25 @@ img {
 
 .feature-card {
   max-width: calc((100% - 3 * 24px) / 4);
+}
+
+.feature-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  width: 100%;
+  padding: 24px 100px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid var(--light-slate);
+  background-color: var(--cloud);
+  margin-bottom: 8px;
+}
+
+.feature-icon {
+  width: 64px;
+  height: 64px;
 }
 
 .feature-title {
