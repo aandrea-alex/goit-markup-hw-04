@@ -330,7 +330,7 @@ img {
 
 .social-link:hover,
 .social-link:focus {
-  background-color: #404bbf;
+  background-color: var(--ocean);
 }
 
 .social-icon {
